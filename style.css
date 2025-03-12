@@ -1,0 +1,343 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+.stick_block_main{
+    height: 50px;
+    width: 100%;
+    background-image: linear-gradient(to right,gold,rgb(246, 219, 65),rgb(252, 239, 168),rgb(233, 231, 221));
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.stick_block{
+    padding: 10px;
+}
+.stick_block_main button{
+    background-color: black;
+    color: white;
+    padding: 2px 5px 2px 5px;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+
+
+/* Navbar */
+
+.navbar{
+    position:;
+    top: 10px;
+    
+}
+.navbar_main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+
+/*  tesla logo */
+.tesla_logo {
+    height: 50px;
+    /* width: 100px; */
+}
+.tesla_logo .logo img{
+    height: 63px;
+    width: 100px;
+    background-size:contain;
+}
+
+/* navbar contents */
+.navbar nav ul{
+  list-style: none;
+  display: flex;
+  width: 500px;
+  justify-content: space-between;
+  /* padding: 20px; */
+
+}
+.navbar nav{
+display: flex;
+align-items: center;
+}
+.navbar nav ul li{
+    margin: 20px;
+}
+
+
+/* logo bar */
+.logo_bar{
+    display: flex;
+    align-items: center;
+}
+.logo_bar ul{
+    display: flex;
+    list-style: none;
+}
+
+.logo_bar ul li{
+    margin: 20px;
+}
+.logo_bar ul li a i{
+    font-size: 22px;
+    color: black;
+}
+
+
+/* Bottom bar */
+
+.bottom_bar_main{
+    height: 45px;
+    width: 100%;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0px;
+    position: fixed;
+}
+
+/* Model Y */
+
+.Model_Y_main{
+    height: 550px;
+    width: 100%;
+    background-image: url("./images/model_y_car_new.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.car_contain { 
+    position: relative;
+    bottom: 100px;
+    text-align: center;
+    color: white;
+
+}
+.car_contain h2{
+    font-size: 60px;
+}
+.car_contain p{
+    font-size: 35px;
+    font-weight: 600;
+}
+.car_contain a{
+    font-size: 22px;
+    font-weight: 600;
+    color: white;
+}
+
+.car_contain button{
+    padding: 10px 30px 10px 30px;
+    margin: 20px 5px 20px 5px;
+    width: 240px;
+    font-weight: 600;
+    border-radius: 5px;
+    border-style: none;
+}
+
+.first_btn {
+    background-color: rgb(62,106,225);
+    color:white;
+}
+
+
+/* New Model Y */
+
+.New_Model_Y_main{
+    height: 550px;
+    width: 100%;
+    background-image: url("https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-Y-2-Desktop-NA.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.New_Model_Y_main button{
+    position: relative;
+    top: 200px;
+}
+
+
+/* Model 3 */
+
+
+.Model_3_main{
+    height: 550px;
+    width: 100%;
+    background-image: url("https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-3-Desktop-US.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Model_3_main button{
+    position: relative;
+    top: 200px;
+}
+
+
+/* CyberTruck */
+
+
+.CyberTruck_main{
+    height: 550px;
+    width: 100%;
+    background-image: url("https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Cybertruck-Desktop-v3.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.CyberTruck_main button{
+    position: relative;
+    top: 200px;
+}
+
+
+/* Model X */
+
+
+.Model_X_main{
+    height: 550px;
+    width: 100%;
+    background-image: url("https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-X-Desktop-US.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Model_X_main button{
+    position: relative;
+    top: 200px;
+}
+
+
+/* Model S */
+
+
+.Model_S_main{
+    height: 550px;
+    width: 100%;
+    background-image: url("https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-S-Desktop-US.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Model_S_main button{
+    position: relative;
+    top: 200px;
+}
+
+
+
+/* Solar panel */
+
+
+.Solar_Panel_main{
+    height: 550px;
+    width: 100%;
+    background-image: url("https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-SolarPanels-01-Desktop");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Solar_Panel_main button{
+    position: relative;
+    top: 200px;
+}
+
+
+
+
+/* Solar panel */
+
+
+.Solar_Roof_main{
+    height: 550px;
+    width: 100%;
+    background-image: url("https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-SolarRoof-Desktop-US.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Solar_Roof_main button{
+    position: relative;
+    top: 200px;
+}
+
+
+
+/* PowerWall */
+
+
+.PowerWall_main{
+    height: 550px;
+    width: 100%;
+    background-image: url("https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Powerwall-Desktop-US.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.PowerWall_main button{
+    position: relative;
+    top: 200px;
+}
+
+
+
+/* Accessories */
+
+
+.Accessories_main{
+    height: 550px;
+    width: 100%;
+    background-image: url("https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Accessories-Desktop-US.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Accessories_main button{
+    position: relative;
+    top: 200px;
+}
